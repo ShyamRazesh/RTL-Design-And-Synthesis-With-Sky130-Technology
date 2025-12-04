@@ -61,6 +61,23 @@ gtkwave
 
 yosys
 
+# <h1 id="header-1">Day 1- Introduction to Verilog design and synthesis</h1>
+
+
+# <h2 id="header-2">Day 2- Timing libs, hierarchical vs flat synthesis and efficent flop coding styles</h2>
+
+
+# <h3 id="header-3">Day 3- Combinational and sequential optimization</h3>
+
+
+# <h4 id="header-4">Day 4- GLS blocking vs non-blocking and synthesis-simulation mismatch</h4>
+
+
+# <h5 id="header-5">Day 5- Optimization in synthesis</h5>
+
+
+
+
 
 
 
