@@ -67,7 +67,7 @@ yosys
 # <h2 id="header-2">Day 2- Timing libs, hierarchical vs flat synthesis and efficent flop coding styles</h2>
 
 
-# <h3 id="header-3">Day 3- Combinational and sequential optimization</h3>
+# <h3 id="header-3"> Day 3- Combinational and sequential optimization</h3>	 
 
 
 # <h4 id="header-4">Day 4- GLS blocking vs non-blocking and synthesis-simulation mismatch</h4>
