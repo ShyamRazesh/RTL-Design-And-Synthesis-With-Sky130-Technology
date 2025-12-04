@@ -34,9 +34,8 @@ github, iverilog, gtkwave, yosys
   <ul>
     <li><a href="#header-5">Day 5- Optimization in synthesis</a></li>
 
-
+#
 Author: Shyam Razesh
-
 
 Acknowledgments
 -----
