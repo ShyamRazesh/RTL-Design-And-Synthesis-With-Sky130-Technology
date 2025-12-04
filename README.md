@@ -10,3 +10,30 @@ Workshops provide a structured environment where learning, experimentation, and 
  A Linux environment (or WSL on Windows/macOS)
 # Tools: 
 github, iverilog, gtkwave, yosys
+
+## Contents
+<div class="toc">
+  <ul>
+    <li><a href="#header-1">Day 1- Introduction to Verilog design and synthesis</a></li>
+</div>  
+     
+<div class="toc">
+  <ul>
+    <li><a href="#header-2">Day 2- Timing libs, hierarchical vs flat synthesis and efficent flop coding styles</a></li> 
+</div>
+     
+<div class="toc">
+  <ul>
+    <li><a href="#header-3">Day 3- Combinational and sequential optimization</a></li>
+</div>
+
+<div class="toc">
+  <ul>
+    <li><a href="#header-4">Day 4- GLS blocking vs non-blocking and synthesis-simulation mismatch</a></li>
+</div>
+
+<div class="toc">
+  <ul>
+    <li><a href="#header-5">Day 5- Optimization in synthesis</a></li>
+</div>
+
