@@ -38,7 +38,9 @@ RTL Design and Synthesis Program by [Mr. Kunal Ghosh](https://www.linkedin.com/i
 Reference
 ----
 https://www.vlsisystemdesign.com/rtl-design-using-verilog-with-sky130-technology/?q=%2Frtl-design-using-verilog-with-sky130-technology%2F&v=a98eef2a3105
+
 https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop
+
 https://github.com/kunalg123/vsdflow
 
 # RTL-Design-And-Synthesis-With-Sky130-Technology
@@ -51,7 +53,13 @@ This repository contains material from an RTL design workshop focusing on Verilo
  
  A Linux environment (or WSL on Windows/macOS)
 # Tools: 
-github, iverilog, gtkwave, yosys
+github
+
+iverilog
+
+gtkwave
+
+yosys
 
 
 
