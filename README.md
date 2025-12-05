@@ -62,6 +62,34 @@ gtkwave
 yosys
 
 # <h1 id="header-1">Day 1- Introduction to Verilog design and synthesis</h1>
+# Design
+ The Design refers to the actual Verilog code (or set of Verilog modules) that implements the intended functionality according to the specified requirements.
+ # Testbench
+ A Testbench is a simulation environment used to apply test vectors (stimulus) to the design in order to verify its functionality.
+
+# How the Simulator Works
+Open-source tools used:
+ 
+`Icarus Verilog (iverilog) ` – Used to compile and simulate Verilog HDL code.
+
+`GTKWave ` – Used to view waveforms from .vcd (Value Change Dump) files.
+
+<img width="995" height="458" alt="image" src="https://github.com/user-attachments/assets/b2fd4ad6-0c8e-4953-81cd-4f7ce608ce78" />
+
+# Tool Installation
+
+ ```bash
+        sudo apt install iverilog
+        sudo apt install gtkwave
+ ```
+
+# Compile Design and Testbench
+  ```bash
+          iverilog -o output.out design.v testbench.v
+  ```
+
+This creates an executable `output.out `.
+Run the simulation:
 
 
 # <h2 id="header-2">Day 2- Timing libs, hierarchical vs flat synthesis and efficent flop coding styles</h2>
