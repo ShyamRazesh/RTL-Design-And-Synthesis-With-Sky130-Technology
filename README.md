@@ -1,4 +1,5 @@
-
+ ![OS](https://img.shields.io/badge/OS-Linux-yellow.svg)
+ 
 # About This Workshop
 Workshops provide a structured environment where learning, experimentation, and collaboration intersect. They help individuals of all experience levels — from beginners to professionals — to develop essential practical skills, understand emerging technologies, and connect with a like-minded community. The broader goals include enhancing creativity, boosting confidence, and equipping participants with knowledge that extends beyond traditional classroom or work settings.
 
