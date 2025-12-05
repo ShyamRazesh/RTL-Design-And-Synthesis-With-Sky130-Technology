@@ -28,7 +28,8 @@ Workshops provide a structured environment where learning, experimentation, and 
 <div class="toc">
   <ul>
     <li><a href="#header-5">Day 5- Optimization in synthesis</a></li>
-
+</div>
+   
 #
 Author: Shyam Razesh
 
@@ -490,10 +491,22 @@ module selective_assign (input i0,i1,i2, input [1:0] sel, output reg y,x); alway
 **Partial Case**
 <img width="1264" height="400" alt="image" src="https://github.com/user-attachments/assets/00993bee-046a-4c53-9649-333455d4356c" />
 
+**8-Bit Adder Array (Generate)**
+
+module adder_chain (input [7:0] op1, op2, output [8:0] result); wire [7:0] carries, partial_sums;
+
+full_adder first (.a(op1), .b(op2), .cin(1'b0), .sum(partial_sums), .cout(carries));
+
+genvar bit; generate for (bit=1; bit<8; bit=bit+1) begin : adder_stages full_adder stage (.a(op1[bit]), .b(op2[bit]), .cin(carries[bit-1]), .sum(partial_sums[bit]), .cout(carries[bit])); end endgenerate
+
+assign result = {carries, partial_sums};​endmodule
+
+module full_adder (input a,b,cin, output sum, cout); assign {cout, sum} = a + b + cin; endmodule
+<img width="1258" height="531" alt="image" src="https://github.com/user-attachments/assets/7b2749bf-6d43-4084-a64b-0d3435d1ffd4" />
 
 
 
 
    
-</div>
+
 
