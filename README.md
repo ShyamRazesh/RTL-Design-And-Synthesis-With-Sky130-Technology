@@ -56,9 +56,13 @@ This repository contains material from an RTL design workshop focusing on Verilo
  A Linux environment (or WSL on Windows/macOS)
 # Tools: 
 **Icarus Verilog (iverilog)** – For compiling and simulating RTL
+
 **GTKWave** – For viewing waveforms
+
 **Yosys** – For synthesis and netlist generation
+
 **Sky130 / Standard Cell Libraries** – For technology mapping
+
 **Linux Shell** – For running commands and managing files
 
 # <h1 id="header-1">Day 1- Introduction to Verilog design and synthesis</h1>
