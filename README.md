@@ -506,8 +506,9 @@ assign result = {carries, partial_sums};​endmodule
 module full_adder (input a,b,cin, output sum, cout); assign {cout, sum} = a + b + cin; endmodule
 <img width="1258" height="531" alt="image" src="https://github.com/user-attachments/assets/7b2749bf-6d43-4084-a64b-0d3435d1ffd4" />
 
+# Certificate
 
-
+<img width="1120" height="788" alt="image" src="https://github.com/user-attachments/assets/0f180c6f-12f3-4276-8bd0-44d153d70552" />
 
    
 
